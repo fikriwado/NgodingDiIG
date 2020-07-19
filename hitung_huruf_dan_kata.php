@@ -19,7 +19,7 @@
 </head>
 <body>
     <h3>Hitung Jumlah Huruf dan Kata</h3>
-    <form action="index.php" method="POST">
+    <form action="hitung_huruf_dan_kata.php" method="POST">
         <input type="text" name="teks" autocomplete="off">
         <input type="submit" name="submit" value="Hitung">
     </form>
