@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100% !important;
+}
+
+body {
+    background-color: #fbfcff;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.image_hover {
+    filter: saturate(0%);
+    transition: .3s;
+}
+
+.image_hover:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: saturate(100%);
+}
