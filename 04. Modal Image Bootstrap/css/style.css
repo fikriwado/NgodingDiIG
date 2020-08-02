@@ -1,0 +1,20 @@
+body {
+    background-color: #F0F0F3;
+}
+
+.my-body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 34px 44px 44px 44px;
+}
+
+.my-body h2 {
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.my-body p {
+    line-height: 32px;
+    color: #575E65 !important;
+    margin: 14px 0 24px 0;
+}
