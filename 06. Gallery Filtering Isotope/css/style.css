@@ -1,0 +1,21 @@
+.cat-menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+.cat-menu li a {
+    display: inline-block;
+    color: #606670;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 3px;
+}
+
+.cat-menu li a:hover {
+    background-color: #eff2f7;
+}
+
+.cat-menu li.active a {
+    color: #fff;
+    background-color: #222222;
+}
