@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100% !important;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #3A7EEE;
+}
+
+.ice-cream {
+    position: absolute;
+    width: 120px;
+    height: 295px;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -30%);
+    -ms-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    z-index: 9999;
+}
+
+.ice,
+.stick {
+    -webkit-box-shadow: 10px 8px 0px #356CC5;
+    box-shadow: 10px 8px 0px #356CC5;
+}
+
+.ice {
+    position: relative;
+    width: 100%;
+    height: 68%;
+    background-color: #F5BF2A;
+    border-radius: 90px 90px 20px 20px;
+    z-index: 10;
+}
+
+.ice::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 96%;
+    height: 95%;
+    background: -o-linear-gradient(top, #FFE55C 0%, #FFC93D 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFE55C), to(#FFC93D));
+    background: linear-gradient(180deg, #FFE55C 0%, #FFC93D 100%);
+    border-radius: 86px 86px 19px 19px;
+}
+
+.ice::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 11px;
+    left: 11px;
+    width: 52%;
+    height: 31%;
+    border-radius: 50%;
+    border: 9px solid transparent;
+    border-left: 9px solid rgba(255, 255, 255, 0.52);
+    ;
+    -webkit-transform: rotateZ(45deg);
+    ;
+    -ms-transform: rotate(45deg);
+    ;
+    transform: rotateZ(45deg);
+}
+
+.stick {
+    position: relative;
+    width: 17%;
+    height: 32%;
+    background-color: #E8BA90;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    top: -0.15px;
+    z-index: 11;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.stick::before {
+    content: "";
+    position: absolute;
+    top: -21.5%;
+    left: 20%;
+    width: 100%;
+    height: 40%;
+    background-color: #D7A679;
+    -webkit-transform: rotateZ(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotateZ(-50deg);
+}
+
+.copyright {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
+    transform: translate(-50%, -60%);
+}
+
+.copyright a {
+    color: #e6e6e6;
+    letter-spacing: 1px;
+}
