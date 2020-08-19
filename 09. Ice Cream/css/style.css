@@ -61,11 +61,8 @@ body {
     border-radius: 50%;
     border: 9px solid transparent;
     border-left: 9px solid rgba(255, 255, 255, 0.52);
-    ;
     -webkit-transform: rotateZ(45deg);
-    ;
     -ms-transform: rotate(45deg);
-    ;
     transform: rotateZ(45deg);
 }
 

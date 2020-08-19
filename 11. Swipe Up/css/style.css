@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100% !important;
+}
+
+body {
+    background-color: #CFA9FF;
+    overflow: hidden;
+}
+
+.wrapper-swipe {
+    position: relative;
+    width: 90px;
+    margin: 20% auto 0 auto;
+}
+
+.swipe {
+    position: relative;
+    display: inline-block;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 50px solid #2E2B2B;
+    margin: 0 auto;
+    -webkit-animation: SwipeUp 1s infinite;
+    animation: SwipeUp 1s infinite;
+}
+
+.swipe::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 90px;
+    top: 25px;
+    left: -15px;
+    background-color: #2E2B2B;
+}
+
+@-webkit-keyframes SwipeUp {
+    from {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    to {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes SwipeUp {
+    from {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    to {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+}
