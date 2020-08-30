@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100% !important;
+}
+
+body {
+    background-color: #F1F3F5;
+}
+
+.subscribe {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -30%);
+    -ms-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    width: 350px;
+    height: 430px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 9.36px 18.72px rgba(67, 80, 113, 0.05);
+    box-shadow: 0px 9.36px 18.72px rgba(67, 80, 113, 0.05);
+    padding: 30px;
+    text-align: center;
+}
+
+.img-email {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #33364F;
+    margin-bottom: 15px;
+}
+
+.desc {
+    color: #99A0AC;
+    margin-bottom: 30px;
+}
+
+.desc,
+.btn-sub,
+.input-email {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.btn-sub,
+.input-email {
+    width: 100%;
+    height: 44px;
+    border-radius: 2px;
+}
+
+.input-email {
+    display: block;
+    background-color: #FDFDFF;
+    border: 1px solid #D7D7DD;
+    padding: 12px 14px;
+    color: #33364F;
+    margin-bottom: 14px;
+}
+
+.input-email::-webkit-input-placeholder {
+    color: #c4c4cc;
+}
+
+.input-email::-moz-placeholder {
+    color: #c4c4cc;
+}
+
+.input-email:-ms-input-placeholder {
+    color: #c4c4cc;
+}
+
+.input-email::-ms-input-placeholder {
+    color: #c4c4cc;
+}
+
+.input-email::placeholder {
+    color: #c4c4cc;
+}
+
+.btn-sub {
+    background-color: #7B82FF;
+    border: 1px solid #7B82FF;
+    -webkit-box-shadow: 0px 2px 7px rgba(123, 130, 255, 0.35);
+    box-shadow: 0px 2px 7px rgba(123, 130, 255, 0.35);
+    color: #ffffff;
+    font-weight: 500;
+    -webkit-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+.btn-sub:hover {
+    cursor: pointer;
+    background-color: #6a71f3;
+}
+
+.btn-sub:focus,
+.input-email:focus {
+    outline: none;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -100px);
+    -ms-transform: translate(-50%, -100px);
+    transform: translate(-50%, -100px);
+}
